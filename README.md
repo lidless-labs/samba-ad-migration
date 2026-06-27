@@ -1,11 +1,22 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="SAMBA AD" width="400">
-  <br><br>
-  <img src="assets/flow.svg" alt="Windows to Linux Migration" width="280">
+  <img src="docs/assets/samba-ad-migration-banner.jpg" alt="samba-ad-migration banner" width="900">
 </p>
 
-<p align="center">Automation scripts for migrating a Windows AD file share to a Samba-based Linux VM on Proxmox, with AD domain integration.
-  <a href="https://solomonneas.dev/projects/samba-ad-file-server"><img src="https://img.shields.io/badge/Portfolio-solomonneas.dev-22c55e?style=flat-square" alt="Portfolio" /></a>
+<h1 align="center">samba-ad-migration</h1>
+
+<p align="center"><strong>Automation scripts for migrating a Windows AD file share to a Samba-based Linux VM on Proxmox, with AD domain integration.</strong></p>
+
+<p align="center">
+  <a href="https://solomonneas.dev/projects/samba-ad-file-server">Project writeup</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="license">
+  <img src="https://img.shields.io/badge/shell-bash-1f425f?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="shell">
+</p>
+
+<p align="center">
+  <img src="assets/flow.svg" alt="Windows to Linux Migration" width="280">
 </p>
 
 ## Features
@@ -32,7 +43,7 @@ The installer uses Ubuntu 24.04 cloud images and automatically handles cloud-ini
 Run this on your Proxmox host for an interactive guided setup:
 
 ```bash
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/solomonneas/samba-ad-migration/main/samba-ad.sh)"
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/lidless-labs/samba-ad-migration/main/samba-ad.sh)"
 ```
 
 This will:
@@ -51,7 +62,7 @@ This will:
 #### 1. Clone and Configure
 
 ```bash
-git clone https://github.com/solomonneas/samba-ad-migration.git
+git clone https://github.com/lidless-labs/samba-ad-migration.git
 cd samba-ad-migration
 cp .env.example .env
 # Edit .env with your environment values

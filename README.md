@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="license">
-  <img src="https://img.shields.io/badge/shell-bash-1f425f?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="shell">
+  <img src="https://shieldcn.dev/badge/license-MIT-green.svg" alt="license">
+  <img src="https://shieldcn.dev/badge/shell-bash-1f425f.svg?logo=gnu-bash&logoColor=white" alt="shell">
 </p>
 
 <p align="center">
